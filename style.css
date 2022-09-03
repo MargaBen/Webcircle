@@ -19,3 +19,30 @@ nav {
   height: 60px;
   flex-wrap: wrap;
 }
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #6b708d;
+}
+
+a:hover {
+  color: #072ac8;
+}
+
+button {
+  background-color: #072ac8;
+  color: #f2f4fc;
+  border: none;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+}
