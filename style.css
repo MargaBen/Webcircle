@@ -46,3 +46,50 @@ button {
   width: 150px;
   font-size: 20px;
 }
+
+.hero-images {
+  position: relative;
+}
+#credit-card-image {
+  width: 200px;
+  position: absolute;
+}
+
+#emoji-image {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  bottom: -34px;
+}
+
+#mr-hero {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.hero-section div {
+  width: 50%;
+}
+
+.hero-section h1 {
+  font-size: 5vw;
+  margin: 57px;
+}
+.hero-section p {
+  color: rgb(107, 112, 141);
+  font-size: 2vw;
+  margin: 0 57px 50px;
+}
+
+button#contact-button {
+  margin-left: 57px;
+}
+button#projects-button {
+  color: rgb(107, 112, 141);
+  background-color: transparent;
+}
