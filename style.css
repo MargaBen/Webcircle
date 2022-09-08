@@ -10,7 +10,7 @@ body {
     sans-serif;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 200px) {
   nav {
     display: flex;
     margin-top: 55px;
@@ -99,9 +99,19 @@ body {
     color: rgb(107, 112, 141);
     background-color: transparent;
   }
+
+  .logo-section {
+    filter: grayscale();
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 57px;
+  }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 199px) {
   nav {
     display: flex;
     margin-top: 55px;
