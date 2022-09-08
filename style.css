@@ -10,86 +10,184 @@ body {
     sans-serif;
 }
 
-nav {
-  display: flex;
-  margin-top: 55px;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 20px;
-  height: 60px;
-  flex-wrap: wrap;
+@media screen and (min-width: 700px) {
+  nav {
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    flex-wrap: wrap;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    margin: 0 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #6b708d;
+  }
+
+  a:hover {
+    color: #072ac8;
+  }
+
+  button {
+    background-color: #072ac8;
+    color: #f2f4fc;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .hero-images {
+    position: relative;
+    background-image: url(hero-section/hero-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #credit-card-image {
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    left: -90px;
+  }
+
+  #emoji-image {
+    width: 250px;
+    position: absolute;
+    right: 56px;
+    bottom: -120px;
+  }
+
+  #mr-hero {
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .hero-section div {
+    width: 50%;
+  }
+
+  .hero-section h1 {
+    font-size: 5vw;
+    margin: 57px;
+  }
+  .hero-section p {
+    color: rgb(107, 112, 141);
+    font-size: 2vw;
+    margin: 0 57px 50px;
+  }
+
+  button#contact-button {
+    margin-left: 57px;
+  }
+  button#projects-button {
+    color: rgb(107, 112, 141);
+    background-color: transparent;
+  }
 }
 
-ul {
-  display: flex;
-  list-style: none;
-}
+@media screen and (max-width: 699px) {
+  nav {
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    flex-wrap: wrap;
+  }
 
-li {
-  margin: 0 30px;
-}
+  #nav-button {
+    display: none;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+  }
 
-a {
-  text-decoration: none;
-  color: #6b708d;
-}
+  li {
+    margin: 0 30px;
+  }
 
-a:hover {
-  color: #072ac8;
-}
+  a {
+    text-decoration: none;
+    color: #6b708d;
+  }
 
-button {
-  background-color: #072ac8;
-  color: #f2f4fc;
-  border: none;
-  height: 50px;
-  width: 150px;
-  font-size: 20px;
-}
+  button {
+    background-color: #072ac8;
+    color: #f2f4fc;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+  }
 
-.hero-images {
-  position: relative;
-}
-#credit-card-image {
-  width: 200px;
-  position: absolute;
-}
+  .hero-images {
+    position: relative;
+    background-image: url(hero-section/hero-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
-#emoji-image {
-  width: 200px;
-  position: absolute;
-  right: 0;
-  bottom: -34px;
-}
+  #credit-card-image {
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: -90px;
+  }
 
-#mr-hero {
-  max-width: 500px;
-  max-height: 500px;
-}
+  #emoji-image {
+    width: 100px;
+    position: absolute;
+    right: 56px;
+    bottom: -120px;
+  }
+  /* 
+  #mr-hero {
+    max-width: 500px;
+    max-height: 500px;
+  } */
 
-.hero-section {
-  display: flex;
-  flex-direction: row-reverse;
-}
+  .hero-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-.hero-section div {
-  width: 50%;
-}
+  .hero-section div {
+    width: 100%;
+  }
 
-.hero-section h1 {
-  font-size: 5vw;
-  margin: 57px;
-}
-.hero-section p {
-  color: rgb(107, 112, 141);
-  font-size: 2vw;
-  margin: 0 57px 50px;
-}
+  .hero-section h1 {
+    font-size: 5vw;
+    margin: 57px;
+  }
+  .hero-section p {
+    color: rgb(107, 112, 141);
+    font-size: 2vw;
+    margin: 0 57px 50px;
+  }
 
-button#contact-button {
-  margin-left: 57px;
-}
-button#projects-button {
-  color: rgb(107, 112, 141);
-  background-color: transparent;
+  button#contact-button {
+    margin-left: 57px;
+  }
+  button#projects-button {
+    color: rgb(107, 112, 141);
+    background-color: transparent;
+  }
 }
