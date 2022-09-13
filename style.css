@@ -216,6 +216,63 @@ body {
     font-size: 15px;
     color: #a2d6f9;
   }
+  .services-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0px;
+    padding: 0px;
+  }
+  .services-section h2 {
+    margin: 35px;
+  }
+  .service-div {
+    width: 270px;
+    height: 344px;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+  }
+  .service-img {
+    display: flex;
+    justify-items: center;
+    background-color: rgb(209, 237, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .service-img img {
+    object-fit: scale-down;
+  }
+  .service-section-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-div h3 {
+    margin: 15px 0px 35px;
+  }
+  .service-div p {
+    position: absolute;
+    top: 200px;
+    color: rgb(107, 112, 141);
+    width: -webkit-fill-available;
+    padding-right: 10px;
+  }
+  .service-div a {
+    text-decoration: none;
+    color: #6b708d;
+    position: absolute;
+    bottom: 15px;
+    color: rgb(7, 42, 200);
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -428,5 +485,60 @@ body {
     margin-left: 10px;
     font-size: 8px;
     color: #a2d6f9;
+  }
+  .services-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0px;
+    padding: 0px;
+  }
+  .services-section h2 {
+    margin: 35px;
+  }
+  .service-div {
+    width: 270px;
+    height: 344px;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+  }
+  .service-img {
+    display: flex;
+    justify-items: center;
+    background-color: rgb(209, 237, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .service-img img {
+    object-fit: scale-down;
+  }
+  .service-section-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .service-div h3 {
+    margin: 15px 0px 35px;
+  }
+  .service-div p {
+    position: absolute;
+    top: 200px;
+    color: rgb(107, 112, 141);
+    width: -webkit-fill-available;
+    padding-right: 10px;
+  }
+  .service-div a {
+    text-decoration: none;
+    color: #6b708d;
+    position: absolute;
+    bottom: 15px;
+    color: rgb(7, 42, 200);
   }
 }
